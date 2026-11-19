@@ -20,7 +20,7 @@
   "homepage": "https://github.com/MatheusEdnei/clean-api#readme",
   "devDependencies": {
     "@types/node": "^26.6.6",
-    "git-commit-msg-linter": "^5.0.10",
-    "typescript": "^7.0.2"
+    "eslint-config-love": "^158.0.0",
+    "git-commit-msg-linter": "^5.0.10"
   }
 }
