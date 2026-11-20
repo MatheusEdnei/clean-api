@@ -6,11 +6,14 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ext .ts",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
+      "npm run test",
       "git add"
     ]
   },
