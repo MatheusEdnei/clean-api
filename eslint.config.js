@@ -13,7 +13,8 @@ module.exports = (async function config() {
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-magic-numbers': 'off',
         '@typescript-eslint/no-unsafe-assignment': 'off',
-        '@typescript-eslint/class-methods-use-this': 'off'
+        '@typescript-eslint/class-methods-use-this': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off'
       }
     }
   ]
