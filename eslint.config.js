@@ -15,7 +15,8 @@ module.exports = (async function config() {
         '@typescript-eslint/no-unsafe-assignment': 'off',
         '@typescript-eslint/class-methods-use-this': 'off',
         '@typescript-eslint/no-unsafe-member-access': 'off',
-        '@typescript-eslint/strict-boolean-expressions': 'off'
+        '@typescript-eslint/strict-boolean-expressions': 'off',
+        '@typescript-eslint/consistent-type-imports': 'off'
       }
     }
   ]
