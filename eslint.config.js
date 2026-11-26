@@ -18,7 +18,8 @@ module.exports = (async function config() {
         '@typescript-eslint/strict-boolean-expressions': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
         '@typescript-eslint/no-unsafe-argument': 'off',
-        '@typescript-eslint/prefer-destructuring': 'off'
+        '@typescript-eslint/prefer-destructuring': 'off',
+        '@typescript-eslint/consistent-type-exports': 'off'
       }
     }
   ]
